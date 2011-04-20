@@ -10,7 +10,7 @@ Four users have been registered into the system:
       request system sessions.
 
     * User ``kass`` (password: ``kass``): An analyst. She may request
-      system session, but may not approve them.
+      system sessions, but may not approve them.
 
     * User ``petra`` (password: ``petra``): From Calldesk. She may
       approve system sessions.
@@ -24,7 +24,7 @@ Bootstrapping from a fresh Git checkout
 This application follows Jacob Kaplan-Moss' `Developing Django apps with
 zc.buildout`_.
 
-You need first to generate the `zc.buildout`_ stuff::
+First you need to generate the `zc.buildout`_ stuff::
 
     $ python ./bootstrap.py
     Downloading http://pypi.python.org/packages/2.7/s/setuptools/setuptools-0.6c11-py2.7.egg
