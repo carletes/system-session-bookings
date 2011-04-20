@@ -8,10 +8,9 @@ Bootstrapping from a fresh Git checkout
 ---------------------------------------
 
 This follows Jacob Kaplan-Moss' `Developing Django apps with zc.buildout
-http://jacobian.org/writing/django-apps-with-buildout/`_.
+http://jacobian.org/writing/django-apps-with-buildout/`.
 
-In order to ge started you need first to generate the `zc.buildout`_
-stuff::
+You need first to generate the `zc.buildout`_ stuff::
 
     $ python ./bootstrap.py
     Downloading http://pypi.python.org/packages/2.7/s/setuptools/setuptools-0.6c11-py2.7.egg
