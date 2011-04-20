@@ -7,8 +7,8 @@ A test of how Django may be used to help our firends down there.
 Bootstrapping from a fresh Git checkout
 ---------------------------------------
 
-This follows Jacob Kaplan-Moss' `Developing Django apps with zc.buildout
-http://jacobian.org/writing/django-apps-with-buildout/`.
+This follows Jacob Kaplan-Moss' `Developing Django apps with
+zc.buildout`_.
 
 You need first to generate the `zc.buildout`_ stuff::
 
@@ -70,3 +70,4 @@ And then you can play with it::
     Quit the server with CONTROL-C.
 
 .. _zc.buildout: http://buildout.org/
+.. _Developing Django apps with zc.buildout: http://jacobian.org/writing/django-apps-with-buildout/
