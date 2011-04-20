@@ -70,7 +70,24 @@ command::
     Creating table ssb_systemsession
     Installing custom SQL ...
     Installing indexes ...
-    Installed 22 object(s) from 1 fixture(s)
+    No fixtures found.
+
+    Synced:
+     > django.contrib.auth
+     > django.contrib.contenttypes
+     > django.contrib.sessions
+     > django.contrib.admin
+     > south
+
+    Not synced (use migrations):
+     - ssb
+    (use ./manage.py migrate to migrate these)
+    $ ./bin/django migrate
+    Running migrations for ssb:
+     - Migrating forwards to 0001_initial.
+     > ssb:0001_initial
+     - Loading initial data for ssb.
+    Installed 32 object(s) from 1 fixture(s)
     $
 
 At this point the application can be started in the usual way::
