@@ -1,13 +1,27 @@
 System session booking forms for COS
 ====================================
 
-A test of how Django may be used to help our firends down there.
+A taste of how Django may be used to help our friends down there.
+
+Sample initial data is supplied in :file:`src/sbb/fictures/initial_data.json`.
+Four users have been registered into the system:
+
+    * User ``kelly`` (password: ``kelly``): A regular user. She may not
+      request system sessions.
+
+    * User ``kass`` (password: ``kass``): An analyst. She may request
+      system session, but may not approve them.
+
+    * User ``petra`` (password: ``petra``): From Calldesk. She may
+      approve system sessions.
+
+    * User ``admin`` (password: ``admin``): A Django superuser.
 
 
 Bootstrapping from a fresh Git checkout
 ---------------------------------------
 
-This follows Jacob Kaplan-Moss' `Developing Django apps with
+This application follows Jacob Kaplan-Moss' `Developing Django apps with
 zc.buildout`_.
 
 You need first to generate the `zc.buildout`_ stuff::
@@ -59,7 +73,7 @@ command::
     Installed 22 object(s) from 1 fixture(s)
     $
 
-And then you can play with it::
+At this point the application can be started in the usual way::
 
     $ ./bin/django runserver
     Validating models...
@@ -68,6 +82,7 @@ And then you can play with it::
     Django version 1.3, using settings 'ssb.testsettings'
     Development server is running at http://127.0.0.1:8000/
     Quit the server with CONTROL-C.
+
 
 .. _zc.buildout: http://buildout.org/
 .. _Developing Django apps with zc.buildout: http://jacobian.org/writing/django-apps-with-buildout/
