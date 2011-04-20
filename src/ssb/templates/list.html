@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>System sessions</title>
+    </head>
+    <body>
+        <h1>System sessions</h1>
+        <p>Hola, {{ user }}.<p>
+        <table>
+            <tr>
+                <th>Title</th>
+                <th>Start date</th>
+                <th>End date</th>
+            </tr>
+            {% for session in sessions %}
+            <tr>
+                <td>{{ session.title }}</td>
+                <td>{{ session.start_date }}</td>
+                <td>{{ session.end_date }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+
+        {% if perms.ssb.add_systemsession %}
+        <a href="{% url admin:ssb_systemsession_add %}">Request a system session</a>
+        {% endif %}
+    </body>
+</html>
