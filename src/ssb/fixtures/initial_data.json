@@ -258,7 +258,7 @@
       "is_active": true, 
       "is_superuser": true, 
       "is_staff": true, 
-      "last_login": "2011-04-20 19:03:41", 
+      "last_login": "2011-04-21 07:40:00", 
       "groups": [], 
       "user_permissions": [], 
       "password": "sha1$fa005$08b85dc128ff153410cb56dd87c8ff8bdbc449e9", 
@@ -296,7 +296,7 @@
       "is_active": true, 
       "is_superuser": false, 
       "is_staff": true, 
-      "last_login": "2011-04-20 19:06:37", 
+      "last_login": "2011-04-21 07:38:29", 
       "groups": [
         2
       ], 
@@ -315,8 +315,8 @@
       "last_name": "", 
       "is_active": true, 
       "is_superuser": false, 
-      "is_staff": false, 
-      "last_login": "2011-04-20 19:11:25", 
+      "is_staff": true, 
+      "last_login": "2011-04-21 07:40:23", 
       "groups": [], 
       "user_permissions": [], 
       "password": "sha1$1c522$aac55b7419d71e461ac6700748254e0ef1da9a5a", 
