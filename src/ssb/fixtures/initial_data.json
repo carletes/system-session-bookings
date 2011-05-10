@@ -198,15 +198,6 @@
     }
   }, 
   {
-    "pk": 25, 
-    "model": "auth.permission", 
-    "fields": {
-      "codename": "can_change_status", 
-      "name": "Can approve or cancel system sessions", 
-      "content_type": 8
-    }
-  }, 
-  {
     "pk": 23, 
     "model": "auth.permission", 
     "fields": {
@@ -323,16 +314,5 @@
       "email": "", 
       "date_joined": "2011-04-20 19:11:25"
     }
-  }, 
-  {
-    "pk": 1, 
-    "model": "ssb.systemsession", 
-    "fields": {
-      "status": "approved", 
-      "start_date": "2011-04-27 12:00:00", 
-      "description": "Move to .NET", 
-      "end_date": "2011-04-27 13:00:00", 
-      "title": "Upgrade WREP"
-    }
-  }
+  } 
 ]
